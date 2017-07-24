@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.netbeans.external:junit-4.5:RELEASE69">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/netbeans/external/junit-4.5/RELEASE69/junit-4.5-RELEASE69.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/netbeans/external/junit-4.5/RELEASE69/junit-4.5-RELEASE69-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/netbeans/external/junit-4.5/RELEASE69/junit-4.5-RELEASE69-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

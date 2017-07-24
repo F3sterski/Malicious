@@ -1,0 +1,73 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: pl/gda/pg/eti/kio/malicious/Bundle.p
+ roperties
+OpenIDE-Module-Install: pl/gda/pg/eti/kio/malicious/MaliciousModule.cl
+ ass
+OpenIDE-Module: malicious
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0-20170518
+OpenIDE-Module-Build-Version: 201705181259
+OpenIDE-Module-Public-Packages: -
+OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
+X-Class-Path: ext/pl.gda.pg.eti.kio.malicious/org-reflections/reflecti
+ ons.jar ext/pl.gda.pg.eti.kio.malicious/com-google-guava/guava.jar ex
+ t/pl.gda.pg.eti.kio.malicious/com-google-code-findbugs/jsr305.jar ext
+ /pl.gda.pg.eti.kio.malicious/org-javassist/javassist.jar ext/pl.gda.p
+ g.eti.kio.malicious/dom4j/dom4j.jar ext/pl.gda.pg.eti.kio.malicious/x
+ ml-apis/xml-apis.jar ext/pl.gda.pg.eti.kio.malicious/org-apache-commo
+ ns/commons-lang3.jar ext/pl.gda.pg.eti.kio.malicious/org-apache-loggi
+ ng-log4j/log4j-api.jar ext/pl.gda.pg.eti.kio.malicious/org-apache-log
+ ging-log4j/log4j-core.jar ext/pl.gda.pg.eti.kio.malicious/junit/junit
+ .jar ext/pl.gda.pg.eti.kio.malicious/org-hamcrest/hamcrest-core.jar e
+ xt/pl.gda.pg.eti.kio.malicious/org-apache-activemq/activemq-core.jar 
+ ext/pl.gda.pg.eti.kio.malicious/org-apache-geronimo-specs/geronimo-jm
+ s_1.1_spec.jar ext/pl.gda.pg.eti.kio.malicious/org-apache-activemq/ka
+ hadb.jar ext/pl.gda.pg.eti.kio.malicious/org-apache-activemq-protobuf
+ /activemq-protobuf.jar ext/pl.gda.pg.eti.kio.malicious/org-fusesource
+ -mqtt-client/mqtt-client.jar ext/pl.gda.pg.eti.kio.malicious/org-fuse
+ source-hawtdispatch/hawtdispatch-transport.jar ext/pl.gda.pg.eti.kio.
+ malicious/org-fusesource-hawtdispatch/hawtdispatch.jar ext/pl.gda.pg.
+ eti.kio.malicious/org-fusesource-hawtbuf/hawtbuf.jar ext/pl.gda.pg.et
+ i.kio.malicious/org-apache-geronimo-specs/geronimo-j2ee-management_1.
+ 1_spec.jar ext/pl.gda.pg.eti.kio.malicious/org-springframework/spring
+ -context.jar ext/pl.gda.pg.eti.kio.malicious/org-springframework/spri
+ ng-aop.jar ext/pl.gda.pg.eti.kio.malicious/aopalliance/aopalliance.ja
+ r ext/pl.gda.pg.eti.kio.malicious/org-springframework/spring-beans.ja
+ r ext/pl.gda.pg.eti.kio.malicious/org-springframework/spring-core.jar
+  ext/pl.gda.pg.eti.kio.malicious/commons-logging/commons-logging.jar 
+ ext/pl.gda.pg.eti.kio.malicious/org-springframework/spring-expression
+ .jar ext/pl.gda.pg.eti.kio.malicious/org-springframework/spring-asm.j
+ ar ext/pl.gda.pg.eti.kio.malicious/commons-net/commons-net.jar ext/pl
+ .gda.pg.eti.kio.malicious/org-jasypt/jasypt.jar ext/pl.gda.pg.eti.kio
+ .malicious/org-slf4j/slf4j-api.jar ext/pl.gda.pg.eti.kio.malicious/or
+ g-slf4j/slf4j-log4j12.jar ext/pl.gda.pg.eti.kio.malicious/log4j/log4j
+ .jar
+Maven-Class-Path: org.reflections:reflections:0.9.9-RC1 com.google.gua
+ va:guava:11.0.2 com.google.code.findbugs:jsr305:1.3.9 org.javassist:j
+ avassist:3.16.1-GA dom4j:dom4j:1.6.1 xml-apis:xml-apis:1.0.b2 org.apa
+ che.commons:commons-lang3:3.1 org.apache.logging.log4j:log4j-api:2.0-
+ beta9 org.apache.logging.log4j:log4j-core:2.0-beta9 junit:junit:4.10 
+ org.hamcrest:hamcrest-core:1.1 org.apache.activemq:activemq-core:5.7.
+ 0 org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1 org.apache.ac
+ tivemq:kahadb:5.7.0 org.apache.activemq.protobuf:activemq-protobuf:1.
+ 1 org.fusesource.mqtt-client:mqtt-client:1.3 org.fusesource.hawtdispa
+ tch:hawtdispatch-transport:1.11 org.fusesource.hawtdispatch:hawtdispa
+ tch:1.11 org.fusesource.hawtbuf:hawtbuf:1.9 org.apache.geronimo.specs
+ :geronimo-j2ee-management_1.1_spec:1.0.1 org.springframework:spring-c
+ ontext:3.0.7.RELEASE org.springframework:spring-aop:3.0.7.RELEASE aop
+ alliance:aopalliance:1.0 org.springframework:spring-beans:3.0.7.RELEA
+ SE org.springframework:spring-core:3.0.7.RELEASE commons-logging:comm
+ ons-logging:1.1.1 org.springframework:spring-expression:3.0.7.RELEASE
+  org.springframework:spring-asm:3.0.7.RELEASE commons-net:commons-net
+ :3.1 org.jasypt:jasypt:1.9.0 org.slf4j:slf4j-api:1.7.5 org.slf4j:slf4
+ j-log4j12:1.7.5 log4j:log4j:1.2.17
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.17.1, org.openide.dialogs > 7.28.1, org.netbeans.modules.edit
+ or.completion/1 > 1.33.1.1, org.openide.filesystems > 8.5.1, org.open
+ ide.io > 1.35.1, org.openide.util.lookup > 8.19.1, org.openide.module
+ s > 7.35.1, org.openide.nodes > 7.33.1, org.netbeans.modules.projecta
+ pi/1 > 1.50.1, org.netbeans.modules.projectuiapi/1 > 1.65.1.8, org.op
+ enide.text > 6.54.1, org.openide.awt > 7.55.1, org.openide.util > 8.2
+ 9.1, org.openide.windows > 6.60.1, org.netbeans.core.multiview/1 > 1.
+ 32.1, org.openide.loaders > 7.44.1
+

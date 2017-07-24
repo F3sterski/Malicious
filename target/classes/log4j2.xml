@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration strict="true" name="MaliciousConfig">
+
+    <Appenders>
+        <!-- Appender configuration moved to class LoggerCreator -->
+        <!--
+        <Appender type="RollingRandomAccessFile" name="errorApender" fileName="logs/error.log"
+                  filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.}: %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </Appender>
+        <Appender type="RandomAccessFile" name="reportApender" fileName="logs/malicious-report.log">
+            <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="ACCEPT"/>
+            <PatternLayout>
+                <Pattern>%d: %m%n</Pattern>
+            </PatternLayout>
+        </Appender>
+        -->
+        <Appender type="Console" name="console">
+            <Layout type="PatternLayout" pattern="%m MDC%X%n"/>
+        </Appender>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="pl.gda.pg.eti.kio.malicious" level="info">
+            <!--
+            <Appender-ref ref="reportApender"/>
+            <Appender-ref ref="errorApender"/>
+            -->
+        </Logger>
+        <Root level="error">
+            <Appender-ref ref="console"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

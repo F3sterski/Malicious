@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Build">
+            <file name="malicious-Malicious.instance">
+                <!--pl.gda.pg.eti.kio.malicious.MaliciousModule-->
+                <attr
+                    bundlevalue="pl.gda.pg.eti.kio.malicious.Bundle#CTL_Malicious" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="pl.gda.pg.eti.kio.malicious.MaliciousModule"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Shortcuts">
+        <file name="DOS-M.shadow">
+            <!--pl.gda.pg.eti.kio.malicious.MaliciousModule-->
+            <attr name="originalFile" stringvalue="Actions/Build/malicious-Malicious.instance"/>
+        </file>
+    </folder>
+</filesystem>

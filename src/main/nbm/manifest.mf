@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: pl/gda/pg/eti/kio/malicious/Bundle.properties
+OpenIDE-Module-Install: pl/gda/pg/eti/kio/malicious/MaliciousModule.class
+OpenIDE-Module: malicious
+OpenIDE-Module-Specification-Version: 1.0
